@@ -1,0 +1,71 @@
+/* Nav colours */
+.navbar-custom {
+    background-color: #2e1473;
+    color: #ffffff;
+}
+
+.nav-item.dropdown:hover 
+.dropdown-menu {
+    background-color: #2e1473;
+}
+
+a.dropdown-item:hover {
+    color: #2e1473; 
+    background-color: #ff6624; /
+}
+/* Nav colours end */
+
+
+/* Hero */
+
+.bg-light {
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../images/header01.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero .container {
+    height: 600px;
+}
+
+span.orange-text{
+    color:rgb(227, 75, 4);
+}
+
+/* Intro */
+
+.intro {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.courses {
+    background-color: #ffffff;
+    height: 200px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.courses-cards {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
