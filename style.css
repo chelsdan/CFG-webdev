@@ -27,10 +27,16 @@ body {
     font-weight: 700;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #ffffff;
     border-color: #f27e0a;
     color: #29323d;
+}
+
+.btn.btn-primary:disabled{
+    background-color: lightgray;
+    color: #ff6624;
+    border: 1px solid grey;
 }
 
 
