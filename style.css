@@ -1,7 +1,44 @@
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #29323d;
+}
+
+.logo {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.orange {
+    color: #fda042;
+}
+
+.dark-orange {
+    color: #f27e0a;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 700;
+}
+
+.btn-primary{
+    background-color: #ffffff;
+    border-color: #f27e0a;
+    color: #29323d;
+}
+
+
 /* Nav colours */
 .navbar-custom {
     background-color: #2e1473;
     color: #ffffff;
+    font-size: 20px;
 }
 
 .nav-item.dropdown:hover 
@@ -11,9 +48,8 @@
 
 a.dropdown-item:hover {
     color: #2e1473; 
-    background-color: #ff6624; /
+    background-color: #fda042; /
 }
-/* Nav colours end */
 
 
 /* Hero */
@@ -28,9 +64,6 @@ a.dropdown-item:hover {
     height: 600px;
 }
 
-span.orange-text{
-    color:rgb(227, 75, 4);
-}
 
 /* Intro */
 
@@ -42,8 +75,10 @@ span.orange-text{
     padding-bottom: 60px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ff6624 ;
 }
 
+/* Course Info */
 .courses {
     background-color: #ffffff;
     height: 200px;
@@ -67,5 +102,11 @@ span.orange-text{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 30px;
+}
+
+/* Register form */
+
+.bg-dark{
+    background-color: #fda042; 
 }
 
