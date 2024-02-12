@@ -5,20 +5,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- CSS file -->
     <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
 
 <!-- Body -->
 <body>
+
+    <!-- TRUE FALSE SECTION START -->
+    <!-- True false flexible container-->
+    <div class="container-fluid-sm text-center bg-light">
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- True false carousel -->
+            <div id="TFcarousel" class="carousel slide" data-bs-theme="light">
+                <div class="carousel-container">
+                    <div class="carousel-inner">
+
+                        <!-- True false heading -->
+                        <h4>True or False?</h4>
+
+                        <!-- First carousel slide -->
+                        <div class="carousel-item active">
+
+                            <!-- Question 1 text container -->
+                            <div class="question-container">
+                                <h6>Question 1:</h6>
+                                <p>A third of tech roles in the UK are held by women</p>
+                            </div>
+
+                            <!-- Question 1 buttons -->
+                            <div class="button-container">
+                                <!-- True button -->
+                                <button type="button" id="q1-true-button" class="btn trueFalseButton">True</button>
+                                <!-- False button -->
+                                <button type="button" id="q1-false-button" class="btn trueFalseButton">False</button>
+                            </div>
+                        </div>
+
+                        <!-- Second carousel slide -->
+                        <div class="carousel-item">
+
+                            <!-- Question 2 text container -->
+                            <div class="question-container">
+                                <h6>Question 2:</h6>
+                                <p>The digital skills gap is the number one factor holding companies back from growth</p>
+                            </div>
+
+                            <!-- Question 2 buttons -->
+                            <div class="button-container">
+                                <!-- True button -->
+                                <button type="button" id="q2-true-button" class="btn trueFalseButton">True</button>
+                                <!-- False button -->
+                                <button type="button" id="q2-false-button" class="btn trueFalseButton">False</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Third carousel slide -->
+                        <div class="carousel-item">
+
+                            <!-- Question 3 text container -->
+                            <div class="question-container">
+                                <h6>Question 3:</h6>
+                                <p>The Chartered Institute for IT, BCS, estimate it will take 150 years to close the gender gap in tech if urgent action isn't taken</p>
+                            </div>
+
+                            <!-- Question 3 buttons -->
+                            <div class="button-container">
+                                <!-- True button -->
+                                <button type="button" id="q3-true-button" class="btn trueFalseButton">True</button>
+                                <!-- False button -->
+                                <button type="button" id="q3-false-button" class="btn trueFalseButton">False</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- True false score text -->
+                    <div class="score-container">
+                        <div id="scoreDisplay">Correct answers: 0 of 3</div>
+                    </div>
+
+                    <!-- Carousel slide indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#TFcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" aria-current="true"></button>
+                        <button type="button" data-bs-target="#TFcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#TFcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <!-- Carousel arrow button left -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#TFcarousel" data-bs-slide="prev">
+                        <!-- Button accessibility -->
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <!-- Carousel arrow button right -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#TFcarousel" data-bs-slide="next">
+                        <!-- Button accessibility -->
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TRUE FALSE SECTION END -->
+
     <!-- Bootstrap Javascript and Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <!-- Javascript file -->
     <script src="script.js"></script>
-    
+
 </body>
 </html>
