@@ -105,10 +105,10 @@ h5, h6{
 
 .intro {
     background-color: #ffffff;
-    height: 300px;
+    min-height: 300px;
+    max-height: 1000px;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ff6624 ;
@@ -117,7 +117,7 @@ h5, h6{
 .webdev-intro {
     background-color: #ffffff;
     min-height: 400px;
-    max-height: 800px;
+    max-height: 950px;
     text-align: center;
     padding: 60px;
     display: flex;
@@ -129,7 +129,8 @@ h5, h6{
 
 .courses {
     background-color: #ffffff;
-    height: 200px;
+    min-height: 200px;
+    max-height: 600px;
     padding-top: 60px;
     padding-bottom: 30px;
     text-align: center;
@@ -139,7 +140,8 @@ h5, h6{
 
 .course-cards {
     background-color: #ffffff;
-    height: 850px;
+    min-height: 850px;
+    max-height: 2500px;
     text-align: center;
     padding-top: 0px;
     display: flex;
@@ -197,7 +199,8 @@ h5, h6{
 /* FAQ SECTION */
 
 .faq-section {
-    height: 400px;
+    min-height: 400px;
+    max-height: 1500px;
     background-color: #fda042;
     color: white;
     padding-top: 60px;
