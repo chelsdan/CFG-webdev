@@ -1,4 +1,5 @@
-/* Body */
+/* BODY */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -27,18 +28,7 @@ body {
     font-weight: 700;
 }
 
-.btn-primary {
-    background-color: #ffffff;
-    border-color: #f27e0a;
-    color: #29323d;
-}
-
-.btn.btn-primary:disabled{
-    background-color: lightgray;
-    color: #ff6624;
-    border: 1px solid grey;
-}
-
+/* NAV BAR */
 
 /* Nav colours */
 .navbar-custom {
@@ -57,8 +47,49 @@ a.dropdown-item:hover {
     background-color: #fda042; /
 }
 
+h5{
+    font-weight: 600;
+}
 
-/* Hero */
+/* BUTTONS */
+
+/* Main buttons */
+.btn-outline-primary {
+    border-color: #f27e0a;
+    color: #29323d;
+}
+
+/* Main buttons disabled */
+.btn.btn-outline-primary:disabled{
+    background-color: lightgray;
+    color: #29323d;
+    border-color: #f27e0a;
+}
+
+/* Main buttons hover and active */
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:active{
+    background-color: #fda042;
+    border-color: #f27e0a;
+    color: #29323d;
+}
+
+/* Sign up button */
+.btn-primary {
+    border-color: #f27e0a;
+    background-color: white;
+    color: #29323d;
+}
+
+/* Sign up button hover and active */
+.btn.btn-primary:hover,
+.btn.btn-primary:active{
+    background-color: #2e1473;
+    border-color: white;
+    color: white;
+}
+
+/* HERO */
 
 .bg-light {
     background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../images/header01.jpg');
@@ -70,8 +101,7 @@ a.dropdown-item:hover {
     height: 600px;
 }
 
-
-/* Intro */
+/* INTRO SECTION */
 
 .intro {
     background-color: #ffffff;
@@ -84,7 +114,8 @@ a.dropdown-item:hover {
     border-bottom: 1px solid #ff6624 ;
 }
 
-/* Course Info */
+/* COURSES SECTION */
+
 .courses {
     background-color: #ffffff;
     height: 200px;
@@ -110,19 +141,34 @@ a.dropdown-item:hover {
     padding-bottom: 30px;
 }
 
-/* Register form */
+.card-text {
+    min-height: 110px;
+    max-height: 350px;
+}
+
+/* REGISTER SECTION */
 
 .bg-dark{
     background-color: #fda042; 
 }
 
-/* TRUE FALSE SECTION START */
+/* Email address form input */
+.form-control{
+    border-color: #f27e0a;
+    color: #29323d;
+}
+
+.form-control:focus{
+    border-color:#f27e0a;
+    box-shadow: none;
+}
+
+/* TRUE FALSE SECTION */
 
 /* Main carousel container */
 .carousel-container {
-    min-height: 430px;
+    min-height: 480px;
     background-color: white;
-    color: orange;
     border-top: 1px solid #ff6624;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -131,7 +177,7 @@ a.dropdown-item:hover {
 /* Carousel inner container */
 .carousel-inner {
     text-align: center;
-    height: 245px;
+    height: 290px;
     padding-top: 20px;
 }
 
@@ -141,7 +187,7 @@ a.dropdown-item:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 130px;
+    height: 150px;
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -151,21 +197,6 @@ a.dropdown-item:hover {
 .button-container {
     height: 40px;
     margin-top: 10px;
-}
-
-/* True false buttons */
-.trueFalseButton {
-    margin-left: 5px;
-    margin-right: 5px;
-    border-color: orange;
-    color: orange;
-}
-
-/* True false button hover and click */
-.trueFalseButton:hover,
-.trueFalseButton:active:focus {
-    border-color:darkorange;
-    color: darkorange;
 }
 
 /* Score text container */
@@ -202,4 +233,24 @@ a.dropdown-item:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-/* TRUE FALSE SECTION END */
+/* FOOTER */
+
+footer {
+    background-color: #2e1473;
+}
+
+/* Social media icons */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.bi {
+    font-size: 2rem;
+    padding: 10px;
+}
