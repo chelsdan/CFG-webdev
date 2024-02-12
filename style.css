@@ -1,0 +1,118 @@
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #29323d;
+}
+
+.logo {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.orange {
+    color: #fda042;
+}
+
+.dark-orange {
+    color: #f27e0a;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #f27e0a;
+    color: #29323d;
+}
+
+.btn.btn-primary:disabled{
+    background-color: lightgray;
+    color: #ff6624;
+    border: 1px solid grey;
+}
+
+
+/* Nav colours */
+.navbar-custom {
+    background-color: #2e1473;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav-item.dropdown:hover 
+.dropdown-menu {
+    background-color: #2e1473;
+}
+
+a.dropdown-item:hover {
+    color: #2e1473; 
+    background-color: #fda042; /
+}
+
+
+/* Hero */
+
+.bg-light {
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../images/header01.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero .container {
+    height: 600px;
+}
+
+
+/* Intro */
+
+.intro {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ff6624 ;
+}
+
+/* Course Info */
+.courses {
+    background-color: #ffffff;
+    height: 200px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.courses-cards {
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/* Register form */
+
+.bg-dark{
+    background-color: #fda042; 
+}
+
