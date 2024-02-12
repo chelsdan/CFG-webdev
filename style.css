@@ -114,12 +114,12 @@ h5, h6{
     border-bottom: 1px solid #ff6624 ;
 }
 
-.intro-webdev {
+.webdev-intro {
     background-color: #ffffff;
-    height: 400px;
+    min-height: 400px;
+    max-height: 800px;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ff6624 ;
@@ -159,9 +159,10 @@ h5, h6{
 
 /* MODULE SECTION */
 
-.modules {
-    background-color: #ffffff;
-    height: 200px;
+.what-you-will-learn {
+    background-color: white;
+    min-height: 200px;
+    max-height: 300px;
     padding-top: 60px;
     padding-bottom: 30px;
     text-align: center;
@@ -170,18 +171,27 @@ h5, h6{
 }
 
 .module-cards {
-    background-color: #ffffff;
-    height: 800px;
+    background-color: white;
+    min-height: 700px;
+    max-height: 2000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    padding-top: 0px;
     display: flex;
     align-items: center;
     border-bottom: solid 1px #ff6624;
 }
 
 .module-text {
-    min-height: 80px;
+    min-height: 50px;
     max-height: 200px;
+}
+
+.module-cards .card-body {
+    text-align: center;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* FAQ SECTION */
@@ -192,6 +202,7 @@ h5, h6{
     color: white;
     padding-top: 60px;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .accordion-item {
@@ -354,6 +365,15 @@ h5, h6{
 }
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* Accordion arrow icons: To change color, replace color name after 'fill' */
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 
 /* FOOTER */
