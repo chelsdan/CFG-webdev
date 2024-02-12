@@ -120,9 +120,12 @@ a.dropdown-item:hover {
 
 /* Main carousel container */
 .carousel-container {
-    min-height: 340px;
-    background-color: orange;
-    color: white;
+    min-height: 430px;
+    background-color: white;
+    color: orange;
+    border-top: 1px solid #ff6624;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 /* Carousel inner container */
@@ -154,15 +157,15 @@ a.dropdown-item:hover {
 .trueFalseButton {
     margin-left: 5px;
     margin-right: 5px;
-    border-color: white;
-    color: white;
+    border-color: orange;
+    color: orange;
 }
 
 /* True false button hover and click */
 .trueFalseButton:hover,
 .trueFalseButton:active:focus {
-    border-color:whitesmoke;
-    color: whitesmoke;
+    border-color:darkorange;
+    color: darkorange;
 }
 
 /* Score text container */
@@ -175,7 +178,7 @@ a.dropdown-item:hover {
 .carousel-indicators {
     height: 3px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 /* Carousel indicator buttons */
@@ -183,20 +186,20 @@ a.dropdown-item:hover {
     border: 0px;
     width: 30px;
     height: 3px;
-    background-color: white;
+    background-color: orange;
 }
 
 /* Carousel indicator hover */
 .carousel-indicators [data-bs-target]:hover {
-    background-color: whitesmoke;
+    background-color: darkorange;
 }
 
 /* Carousel arrow icons: To change color, replace color name after 'fill' */
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 /* TRUE FALSE SECTION END */
