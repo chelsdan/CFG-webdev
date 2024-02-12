@@ -47,7 +47,7 @@ a.dropdown-item:hover {
     background-color: #fda042; /
 }
 
-h5{
+h5, h6{
     font-weight: 600;
 }
 
@@ -92,7 +92,7 @@ h5{
 /* HERO */
 
 .bg-light {
-    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../images/header01.jpg');
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../CFG-webdev/images/header01.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -114,6 +114,17 @@ h5{
     border-bottom: 1px solid #ff6624 ;
 }
 
+.webdev-intro {
+    background-color: #ffffff;
+    min-height: 400px;
+    max-height: 800px;
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ff6624 ;
+}
+
 /* COURSES SECTION */
 
 .courses {
@@ -126,9 +137,9 @@ h5{
     align-items: center;
 }
 
-.courses-cards {
+.course-cards {
     background-color: #ffffff;
-    height: 300px;
+    height: 850px;
     text-align: center;
     padding-top: 0px;
     display: flex;
@@ -144,6 +155,138 @@ h5{
 .card-text {
     min-height: 110px;
     max-height: 350px;
+}
+
+/* MODULE SECTION */
+
+.what-you-will-learn {
+    background-color: white;
+    min-height: 200px;
+    max-height: 300px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.module-cards {
+    background-color: white;
+    min-height: 700px;
+    max-height: 2000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #ff6624;
+}
+
+.module-text {
+    min-height: 50px;
+    max-height: 200px;
+}
+
+.module-cards .card-body {
+    text-align: center;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* FAQ SECTION */
+
+.faq-section {
+    height: 400px;
+    background-color: #fda042;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.accordion-item {
+    background-color: white;
+    color: #29323d;
+    border-color: white;
+}
+
+.accordion-button {
+    background-color: #fda042;
+    color: white;
+    border-color: #ff6624;
+}
+
+.accordion-button:active, .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fda042;
+    color: white;
+    border-color: #ff6624;
+}
+
+/* Accordion arrow icons: To change color, replace color name after 'fill' */
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+  
+
+/* TESTIMONIAL SECTION */
+
+.job-title {
+    font-weight: 100;
+}
+
+.feedback {
+    font-style: italic;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+/* Main testimonial carousel container */
+.testimonial-carousel-container {
+    min-height: 450px;
+    background-color: white;
+    border-top: 1px solid #ff6624;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/* Testimonial carousel inner container */
+.testimonial-carousel-inner {
+    text-align: center;
+    height: 400px;
+    padding-top: 20px;
+}
+
+/* Testimonial text container */
+.testimonial-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 60px;
+}
+
+/* Carousel indicator buttons */
+.carousel-indicators [data-bs-target="#testimonial-carousel"] {
+    border: 0px;
+    width: 30px;
+    height: 3px;
+    background-color: orange;
 }
 
 /* REGISTER SECTION */
