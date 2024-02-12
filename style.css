@@ -116,3 +116,90 @@ a.dropdown-item:hover {
     background-color: #fda042; 
 }
 
+/* TRUE FALSE SECTION START */
+
+/* Main carousel container */
+.carousel-container {
+    min-height: 430px;
+    background-color: white;
+    color: orange;
+    border-top: 1px solid #ff6624;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/* Carousel inner container */
+.carousel-inner {
+    text-align: center;
+    height: 245px;
+    padding-top: 20px;
+}
+
+/* True false question container */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* True false button container */
+.button-container {
+    height: 40px;
+    margin-top: 10px;
+}
+
+/* True false buttons */
+.trueFalseButton {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-color: orange;
+    color: orange;
+}
+
+/* True false button hover and click */
+.trueFalseButton:hover,
+.trueFalseButton:active:focus {
+    border-color:darkorange;
+    color: darkorange;
+}
+
+/* Score text container */
+.score-container {
+    height: 25px;
+    margin-top: 15px;
+}
+
+/* Carousel indicator container */
+.carousel-indicators {
+    height: 3px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/* Carousel indicator buttons */
+.carousel-indicators [data-bs-target="#TFcarousel"] {
+    border: 0px;
+    width: 30px;
+    height: 3px;
+    background-color: orange;
+}
+
+/* Carousel indicator hover */
+.carousel-indicators [data-bs-target]:hover {
+    background-color: darkorange;
+}
+
+/* Carousel arrow icons: To change color, replace color name after 'fill' */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkorange' viewBox='0 0 16 16'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* TRUE FALSE SECTION END */
