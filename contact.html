@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD START -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>SheDev - Contact</title>
+
+</head>
+<!-- HEAD END -->
+
+<!-- BODY START -->
+<body>
+
+    <!-- NAVIGATION START -->
+    <nav class="navbar navbar-expand-lg navbar-custom" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><span class="logo orange">She</span>{Dev}</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Course List
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
+                            <li class="dropdown-item disabled text-white">Coming soon:</li>
+                            <li><a class="dropdown-item disabled" href="#">Data</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Python</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Cyber Security</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Cloud</a></li>
+                            <li><a class="dropdown-item disabled" href="#">Game Development</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <!-- Contact form -->
+    <section>
+        <div class="contact-us">
+            <div class="container p-4">
+                <form action="mailto:hello@shedev.com" method="post" enctype="text/plain">
+                    <div class="row d-flex justify-content-center pb-5">
+                        <h1 class="text-center bolder py-5">Contact us</h1>
+                        <p>Enter your message below and our handy form will launch your email client to send it.</p>
+                        <p>If you'd prefer, you can email us directly at <a href="mailto:hello@shedev.com">hello@shedev.com.</a></p>
+                        <form>
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 mt-3">
+                                    <h5><label for="message">Message:</label></h5>
+                                    <textarea id="message" name="message" rows="4" style="width: 100%;" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary btn-md mb-3 bolder" value="Submit Button">Send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+    <!-- FOOTER START -->
+    <footer class="text-center text-md-start text-white">
+        <!-- Section: Social media -->
+        <section class="d-flex flex-wrap p-4">
+            <!-- Left-->
+            <div class="pt-2">
+                <span class="fs-4">Connect with us:</span>
+            </div>
+            <div>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+
+                <!-- Twitter -->
+                <a href="https://www.twitter.com" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+                
+                <!-- Instagram -->
+                <a href="https://www.instagram.com" title="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com" title="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+            <!-- Right -->
+            <div class="ms-auto p-3"> © 2024 Copyright:&nbsp;&nbsp;<a href="https://www.shedev.com" title="shedev.com">SheDev.com</a></div>
+        </section>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- Bootstrap Javascript and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
